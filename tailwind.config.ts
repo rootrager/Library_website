@@ -17,7 +17,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)"],
-        orbitron: ["var(--font-orbitron)"],
+        pixel: ["var(--font-press-start)"], 
       },
     },
   },

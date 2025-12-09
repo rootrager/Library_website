@@ -39,7 +39,7 @@ export default function Home() {
     <main 
       className="min-h-screen pb-20 bg-fixed bg-cover bg-center"
       style={{ 
-        backgroundImage: `linear-gradient(to bottom, rgba(13, 4, 45, 0.92), rgba(13, 4, 45, 0.85)), url('/header-bg7.jpeg')`
+        backgroundImage: `linear-gradient(to bottom, rgba(13, 4, 45, 0.92), rgba(13, 4, 45, 0.85)), url('/header-bg8.jpeg')`
       }}
     >
       <Hero 

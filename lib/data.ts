@@ -82,14 +82,5 @@ export const BOOKS: Book[] = [
     description: "A tea merchant becomes a spy/assassin to rescue her siblings in this unique take on space colonization.",
     coverUrl: "/covers/splinter-sky.jpg",
     downloadUrl: "/books/splinter-sky.pdf"
-  },
-  {
-    id: "10",
-    title: "Some Desperate Glory",
-    author: "Emily Tesh",
-    category: "Space Opera",
-    description: "A story of war, revenge, and finding one's place in a universe that has left humanity behind.",
-    coverUrl: "/covers/desperate-glory.jpg",
-    downloadUrl: "/books/desperate-glory.pdf"
   }
 ];

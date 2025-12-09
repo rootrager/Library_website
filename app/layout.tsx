@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
-import { Inter, Orbitron } from "next/font/google"; // <--- Orbitron رو اضافه کن
+import { Inter, Press_Start_2P } from "next/font/google"; 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-// تعریف فونت فضایی
-const orbitron = Orbitron({ 
-  subsets: ["latin"], 
-  variable: "--font-orbitron",
-  weight: ["400", "700", "900"] // وزن‌های مختلف
+
+// 👇 تغییر ۲: تنظیمات فونت پیکسلی
+const pressStart = Press_Start_2P({
+  weight: "400", // این فونت فقط وزن 400 داره
+  subsets: ["latin"],
+  variable: "--font-press-start", // اسم متغیرش رو می‌ذاریم press-start
 });
 
 export const metadata: Metadata = {
@@ -22,8 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* اضافه کردن متغیر فونت به body */}
-      <body className={`${inter.variable} ${orbitron.variable} font-sans antialiased`}>
+      {/* 👇 تغییر ۳: اضافه کردن متغیر به className */}
+      <body className={`${inter.variable} ${pressStart.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

@@ -36,13 +36,13 @@ function Hero({
         </div>
 
         {/* تیتر اصلی */}
-        <h1 className="mb-4 text-5xl md:text-7xl font-black uppercase tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,1)] font-orbitron">
-          Explore The <span className="text-transparent bg-clip-text bg-gradient-to-r from-mint to-ocean">Future</span>
+        <h1 className="mb-6 text-3xl md:text-6xl font-black uppercase tracking-wider drop-shadow-[0_5px_5px_rgba(0,0,0,1)] font-pixel leading-relaxed">
+        Explore <span className="text-transparent bg-clip-text bg-gradient-to-r from-mint to-ocean">Future</span>
         </h1>
         
         {/* متن توضیحات */}
-        <p className="mb-10 text-lg md:text-2xl font-light text-almond drop-shadow-md max-w-2xl leading-relaxed">
-          A curated list of modern sci-fi masterpieces defining the new era of imagination.
+        <p className="mb-10 text-lg md:text-2xl font-medium text-almond drop-shadow-md max-w-3xl leading-loose mx-auto">
+        A curated list of modern sci-fi masterpieces defining the new era of imagination.
         </p>
 
         {/* سرچ باکس (جایی که ارور داشت الان درست شد چون searchQuery رو بالا تعریف کردیم) */}
